@@ -24,7 +24,7 @@
         "tagline": "Unabhängige Energieberatung für Privathaushalte und KMU im Main Gebiet."
       },
       "address": {
-        "company":   "Mike Seufert e.K.",
+        "company":   "Energiewechsel \nMike Seufert e.K.",
         "street":    "Mainstraße 1 · 97321 Würzburg",
         "email":     "kontakt@ewam.de",
         "phone":     "+49 00 000 000 00",
@@ -48,7 +48,7 @@
           { "label": "AGB",         "href": "/agb" }
         ]
       },
-      "copyright": "© 2025 Mike Seufert e.K.",
+      "copyright": "© 2025 Energiewechsel Mike Seufert e.K.",
       "tagline": "Gemacht am Main."
     },
     "stats": {
@@ -340,7 +340,7 @@
     "sections": [
       {
         "heading": "Angaben gemäß § 5 TMG",
-        "content": "Mike Seufert e.K.\nMainstraße 1\n97321 Würzburg"
+        "content": "Energiewechsel \nMike Seufert e.K.\nMainstraße 1\n97321 Würzburg"
       },
       {
         "heading": "Kontakt",
@@ -374,7 +374,7 @@
       },
       {
         "heading": "2. Verantwortliche Stelle",
-        "content": "Mike Seufert e.K.\nMainstraße 1 · 97321 Würzburg\nE-Mail: kontakt@ewam.de\nTelefon: +49 00 000 000 00"
+        "content": "Energiewechsel \nMike Seufert e.K.\nMainstraße 1\n97321 Würzburg"
       },
       {
         "heading": "3. Erhebung und Verarbeitung von Daten",
