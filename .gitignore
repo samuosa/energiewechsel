@@ -1,2 +1,4 @@
 /.claude
 /v2
+/website-vue/node_modules
+/website-vue/dist
