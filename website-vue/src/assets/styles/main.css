@@ -39,7 +39,7 @@
     --color-overlay-white:    rgba(255,255,255,0.88);
 
     /* ── Gradients ── */
-    --gradient-gold:          linear-gradient(90deg, #B18432 0%, #F3D478 50%, #FEFBB3 100%);
+    --gradient-gold:          linear-gradient(90deg, var(--color-gold-start) 0%, var(--color-gold-mid) 50%, var(--color-gold-start) 100%);
     --gradient-why-bg:        linear-gradient(180deg, #fafaf8 0%, #f6f6f2 100%);
     --gradient-portrait-bg:   repeating-linear-gradient(135deg, #f3f2ef 0 14px, #ebe9e4 14px 28px);
     --gradient-hero-glow:     radial-gradient(closest-side, rgba(243,212,120,0.15), rgba(243,212,120,0) 70%);
