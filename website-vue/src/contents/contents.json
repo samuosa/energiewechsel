@@ -24,7 +24,7 @@
         "tagline": "Unabhängige Energieberatung für Privathaushalte und KMU im Main Gebiet."
       },
       "address": {
-        "company":   "Maik Seufert e.K.",
+        "company":   "Mike Seufert e.K.",
         "street":    "Mainstraße 1 · 97321 Würzburg",
         "email":     "kontakt@ewam.de",
         "phone":     "+49 00 000 000 00",
@@ -64,7 +64,7 @@
 
   "homePage": {
     "meta": {
-      "title": "Energiewechsel am Main — Maik Seufert",
+      "title": "Energiewechsel am Main — Mike Seufert",
       "description": "Unabhängige Energieberatung für Privathaushalte und KMU im Rhein-Main Gebiet. Strom, Gas, Photovoltaik, Wärmepumpe und Energieaudit."
     },
     "hero": {
@@ -78,10 +78,10 @@
       "availabilityNote": "Aktuell Termine verfügbar · Antwort innerhalb von 24 h",
       "portrait": {
         "src":       "/assets/images/beraterbild.png",
-        "label":     "PORTRAIT · 4:5 · Maik Seufert",
-        "ariaLabel": "Portraitfoto Maik Seufert",
-        "caption1":  "Maik Seufert, Inhaber",
-        "caption2":  "Frankfurt · Hanau · Aschaffenburg"
+        "label":     "PORTRAIT · 4:5 · Mike Seufert",
+        "ariaLabel": "Portraitfoto Mike Seufert",
+        "caption1":  "Mike Seufert, Inhaber",
+        "caption2":  "Würzburg · Aschaffenburg · Frankfurt"
       }
     },
     "services": {
@@ -114,7 +114,7 @@
     },
     "whyUs": {
       "eyebrow": "Unsere Haltung",
-      "heading": "Warum Energie Wechsel am Main",
+      "heading": "Warum Energiewechsel am Main",
       "items": [
         { "title": "Persönlich",  "text": "Ein fester Ansprechpartner über die gesamte Vertragslaufzeit. Keine Weitergabe an externe Callcenter." },
         { "title": "Unabhängig", "text": "Vergleich aus über 1.200 Tarifen. Wir sind keinem einzelnen Versorger verpflichtet." },
@@ -245,7 +245,7 @@
   "ueberMichPage": {
     "meta": {
       "title": "Über mich — Energiewechsel am Main",
-      "description": "Maik Seufert – unabhängiger Energieberater im Rhein-Main Gebiet. Persönliche Beratung mit über 5 Jahren Erfahrung."
+      "description": "Mike Seufert – unabhängiger Energieberater im Rhein-Main Gebiet. Persönliche Beratung mit über 5 Jahren Erfahrung."
     },
     "intro": {
       "eyebrow":   "Über mich",
@@ -254,9 +254,9 @@
       "body":      "Seit über fünf Jahren helfe ich Privathaushalten und Unternehmen in der Region, ihre Energiekosten zu senken und ihre Versorgung zukunftssicher aufzustellen. Was mich von großen Vergleichsportalen unterscheidet, ist einfach erklärt: Bei mir bekommen Sie keinen wechselnden Callcenter-Agenten, sondern einen festen Ansprechpartner – vom ersten Gespräch über den Vertragsabschluss bis zur laufenden Betreuung.",
       "portrait": {
         "src":       "/assets/images/beraterbild.png",
-        "label":     "PORTRAIT · 3:4 · Maik Seufert",
-        "ariaLabel": "Portraitfoto Maik Seufert",
-        "caption":   "Maik Seufert, Inhaber"
+        "label":     "PORTRAIT · 3:4 · Mike Seufert",
+        "ariaLabel": "Portraitfoto Mike Seufert",
+        "caption":   "Mike Seufert, Inhaber"
       }
     },
     "approach": {
