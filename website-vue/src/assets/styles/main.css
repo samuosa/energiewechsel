@@ -839,58 +839,93 @@
     font-size: var(--font-size-caption);
   }
 
-  /* ── File upload button ── */
+  /* ── File upload ── */
+  .file-upload-area {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .file-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .file-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px 4px 8px;
+    background: var(--color-bg-subtle);
+    border: 1px solid var(--color-border-medium);
+    border-radius: 999px;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-body);
+    max-width: 200px;
+  }
+  .file-pill > svg { flex-shrink: 0; color: var(--color-secondary); }
+
+  .file-pill-name {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .file-pill-remove {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    color: var(--color-secondary);
+    border-radius: 999px;
+    flex-shrink: 0;
+    transition: color var(--transition-base);
+    margin-left: 2px;
+  }
+  .file-pill-remove:hover { color: var(--color-text-primary); }
+
   .file-upload-btn {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    gap: 8px;
-    width: 100%;
-    padding: 12px 22px;
-    font-size: var(--font-size-btn);
+    gap: 6px;
+    align-self: flex-start;
+    padding: 8px 16px;
+    font-size: var(--font-size-caption);
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-body);
     color: var(--color-text-body);
     background: transparent;
     border: 1px solid var(--color-border-strong);
-    border-radius: var(--radius);
+    border-radius: 999px;
     cursor: pointer;
     transition: border-color var(--transition-base), color var(--transition-base);
-    margin-top: 4px;
   }
   .file-upload-btn:hover {
     border-color: var(--color-accent);
     color: var(--color-accent);
   }
 
-  /* ── PrimeVue Overrides (unstyled mode) ── */
-  [data-pc-name="select"],
-  [data-pc-name="fileupload"] {
-    width: 100%;
-    font-family: var(--font-family-body);
-  }
-
-  /* Select dropdown overlay panel */
-  [data-pc-name="select"] [data-pc-section="overlay"] {
-    background: var(--color-surface);
-    border: 1px solid var(--color-border-medium);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow-card-hover);
-    overflow: hidden;
-    z-index: calc(var(--z-modal) + 10);
-  }
-
-  [data-pc-name="select"] [data-pc-section="option"] {
+  /* ── PrimeVue Select option styles ── */
+  /* Overlay is teleported to <body>, so styled via pt; options styled here */
+  .select-option {
     padding: 10px 14px;
     font-size: var(--font-size-nav-primary);
+    font-family: var(--font-family-body);
     color: var(--color-text-body);
     cursor: pointer;
-    transition: background var(--transition-base);
+    transition: background var(--transition-base), color var(--transition-base);
   }
-  [data-pc-name="select"] [data-pc-section="option"]:hover,
-  [data-pc-name="select"] [data-pc-section="option"][aria-selected="true"] {
+  .select-option[data-p-focused="true"] {
     background: var(--color-bg-subtle);
+  }
+  .select-option[data-p-selected="true"] {
     color: var(--color-accent);
+    font-weight: var(--font-weight-bold);
   }
 }
 

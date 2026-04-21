@@ -16,11 +16,7 @@
           :options="c.anfrageOptions"
           optionLabel="label"
           :placeholder="c.anfragePlaceholder"
-          :pt="{
-            root:     { class: 'form-input flex items-center justify-between cursor-pointer h-auto min-h-[48px] py-0', style: 'background: var(--input-bg);' },
-            label:    { class: 'flex-1 py-3' },
-            dropdown: { class: 'flex items-center px-3', style: 'color: var(--color-secondary);' },
-          }"
+          :pt="selectPt"
         >
           <template #dropdownicon>
             <ChevronDown :size="16" />
@@ -72,16 +68,33 @@
       <div class="form-group">
         <label class="form-label">{{ c.anhangLabel }}</label>
         <p class="text-xs" style="color: var(--color-secondary);">{{ c.anhangHint }}</p>
-        <label class="file-upload-btn">
-          <Paperclip :size="15" aria-hidden="true" />
-          <span>{{ fileLabel }}</span>
-          <input
-            type="file"
-            multiple
-            class="sr-only"
-            @change="onFileSelect"
-          />
-        </label>
+        <div class="file-upload-area">
+          <!-- Selected file pills -->
+          <div v-if="anhaenge.length" class="file-pills">
+            <span
+              v-for="(file, i) in anhaenge"
+              :key="i"
+              class="file-pill"
+            >
+              <Paperclip :size="12" aria-hidden="true" />
+              <span class="file-pill-name">{{ file.name }}</span>
+              <button
+                type="button"
+                class="file-pill-remove"
+                :aria-label="`${file.name} entfernen`"
+                @click="removeFile(i)"
+              >
+                <X :size="12" />
+              </button>
+            </span>
+          </div>
+          <!-- Add button -->
+          <label class="file-upload-btn">
+            <Paperclip :size="14" aria-hidden="true" />
+            <span>{{ anhaenge.length ? 'Weitere hinzufügen' : 'Datei auswählen' }}</span>
+            <input type="file" multiple class="sr-only" @change="onFileSelect" />
+          </label>
+        </div>
       </div>
 
       <!-- Submit -->
@@ -105,13 +118,35 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import Select from 'primevue/select'
-import { ChevronDown, Paperclip } from 'lucide-vue-next'
+import { ChevronDown, Paperclip, X } from 'lucide-vue-next'
 import ModalShell from './ModalShell.vue'
 import { useModals } from '@/composables/useModals'
 import content from '@/contents/contents.json'
 
 const { state, closeAll } = useModals()
 const c = content.contactForm
+
+const selectPt = {
+  root: {
+    class: 'form-input flex items-center justify-between cursor-pointer h-auto min-h-[48px] py-0',
+    style: 'background: var(--input-bg);',
+  },
+  label:    { class: 'flex-1 py-3 truncate', style: 'color: var(--color-text-body);' },
+  dropdown: { class: 'flex items-center px-3 flex-shrink-0', style: 'color: var(--color-secondary);' },
+  overlay: {
+    style: [
+      'background: var(--color-surface)',
+      'border: 1px solid var(--color-border-medium)',
+      'border-radius: var(--radius)',
+      'box-shadow: 0 8px 32px -8px rgba(0,0,0,0.18)',
+      'overflow: hidden',
+      'z-index: 9999',
+    ].join(';'),
+  },
+  listContainer: { style: 'max-height: 220px; overflow-y: auto;' },
+  list:    { style: 'list-style: none; margin: 0; padding: 4px 0;' },
+  option:  { class: 'select-option' },
+}
 
 const anfrage  = ref(null)
 const telefon  = ref('')
@@ -150,14 +185,16 @@ const isValid = computed(() =>
   anfrage.value !== null && telefon.value.trim().length > 0
 )
 
-const fileLabel = computed(() =>
-  anhaenge.value.length
-    ? `${anhaenge.value.length} Datei${anhaenge.value.length > 1 ? 'en' : ''} ausgewählt`
-    : 'Datei auswählen'
-)
-
 function onFileSelect(event) {
-  anhaenge.value = Array.from(event.target.files ?? [])
+  const newFiles = Array.from(event.target.files ?? [])
+  // Merge, deduplicate by name
+  const existing = anhaenge.value.map(f => f.name)
+  anhaenge.value = [...anhaenge.value, ...newFiles.filter(f => !existing.includes(f.name))]
+  event.target.value = ''
+}
+
+function removeFile(index) {
+  anhaenge.value = anhaenge.value.filter((_, i) => i !== index)
 }
 
 function handleSubmit() {
