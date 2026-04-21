@@ -1,0 +1,299 @@
+{
+  "shared": {
+    "skipLink": "Zum Inhalt springen",
+    "nav": {
+      "brand": {
+        "name": "Energiewechsel am Main",
+        "tagline": "Mike Seufert · Energieberatung",
+        "ariaLabel": "Energiewechsel am Main — Startseite"
+      },
+      "links": {
+        "home":       { "label": "Home",       "href": "/" },
+        "leistungen": { "label": "Leistungen", "href": "/leistungen" },
+        "ueber":      { "label": "Über mich",  "href": "/ueber-mich" },
+        "kontakt":    { "label": "Kontakt",    "href": "/#kontakt" }
+      },
+      "ctaButton": { "label": "Termin buchen", "href": "/#termin" },
+      "menuAriaLabel": "Menü öffnen",
+      "mobileNavAriaLabel": "Mobile Navigation",
+      "primaryNavAriaLabel": "Hauptnavigation"
+    },
+    "footer": {
+      "brand": {
+        "name": "Energiewechsel am Main",
+        "tagline": "Unabhängige Energieberatung für Privathaushalte und KMU im Main Gebiet."
+      },
+      "address": {
+        "company":   "Maik Seufert e.K.",
+        "street":    "Mainstraße 1 · 97321 Würzburg",
+        "email":     "kontakt@ewam.de",
+        "phone":     "+49 00 000 000 00",
+        "emailHref": "mailto:kontakt@ewam.de",
+        "phoneHref": "tel:+4900000000"
+      },
+      "colLeistungen": {
+        "heading": "Leistungen",
+        "links": [
+          { "label": "Strom & Gas",  "href": "/leistungen#strom-gas" },
+          { "label": "Photovoltaik", "href": "/leistungen#photovoltaik" },
+          { "label": "Wärmepumpe",  "href": "/leistungen#waermepumpe" },
+          { "label": "Energieaudit", "href": "/leistungen#energieaudit" }
+        ]
+      },
+      "colRechtliches": {
+        "heading": "Rechtliches",
+        "links": [
+          { "label": "Impressum",   "href": "/impressum" },
+          { "label": "Datenschutz", "href": "/datenschutz" },
+          { "label": "AGB",         "href": "/agb" }
+        ]
+      },
+      "copyright": "© 2025 Mike Seufert e.K.",
+      "tagline": "Gemacht am Main."
+    },
+    "stats": {
+      "ariaLabel": "Kennzahlen",
+      "items": [
+        { "num": "1.200+",  "label": "Tarife im Vergleich" },
+        { "num": "5.000+",  "label": "persönlich betreute Kunden" },
+        { "num": "5 Jahre", "label": "Markterfahrung am Main" },
+        { "num": "Ø 25 %",  "label": "Ersparnis pro Kunde" }
+      ]
+    }
+  },
+
+  "homePage": {
+    "meta": {
+      "title": "Energiewechsel am Main — Maik Seufert",
+      "description": "Unabhängige Energieberatung für Privathaushalte und KMU im Rhein-Main Gebiet. Strom, Gas, Photovoltaik, Wärmepumpe und Energieaudit."
+    },
+    "hero": {
+      "eyebrow":    "Unabhängige Energieberatung · Rhein-Main",
+      "line1":      "Ihre Energie.",
+      "line2":      "Persönlich betreut.",
+      "line3":      "Messbar günstiger.",
+      "subtitle":   "Als Ihr fester Ansprechpartner begleite ich Sie mit meinem Team durch den gesamten Energiewechsel – von der ersten Analyse bis zur Umsetzung. Unabhängig vom Markt, transparent im Ablauf und für Sie kostenfrei.",
+      "ctaPrimary":   { "label": "Kostenloses Erstgespräch vereinbaren", "href": "/#termin" },
+      "ctaSecondary": { "label": "Leistungen ansehen", "href": "/leistungen" },
+      "availabilityNote": "Aktuell Termine verfügbar · Antwort innerhalb von 24 h",
+      "portrait": {
+        "src":       "/assets/images/beraterbild.png",
+        "label":     "PORTRAIT · 4:5 · Maik Seufert",
+        "ariaLabel": "Portraitfoto Maik Seufert",
+        "caption1":  "Maik Seufert, Inhaber",
+        "caption2":  "Frankfurt · Hanau · Aschaffenburg"
+      }
+    },
+    "services": {
+      "eyebrow":   "Leistungen",
+      "heading":   "Unsere Leistungen",
+      "lede":      "Vier Bereiche, eine Philosophie: Wir begleiten den kompletten Prozess – damit Sie sich um nichts kümmern müssen.",
+      "linkLabel": "Mehr erfahren",
+      "items": [
+        {
+          "n": "01", "title": "Strom & Gas",
+          "text": "Aus über 1.200 Tarifen wählen wir die Angebote, die zu Ihrem Verbrauchsprofil passen – inklusive Preisgarantie und laufender Vertragsbetreuung.",
+          "href": "/leistungen#strom-gas"
+        },
+        {
+          "n": "02", "title": "Photovoltaik",
+          "text": "Gesamtkonzept aus Modulen, Speicher und Wärme, Dach-Aufmaß per Drohne, Umsetzung über unser Partnernetzwerk – bis zum Netzanschluss.",
+          "href": "/leistungen#photovoltaik"
+        },
+        {
+          "n": "03", "title": "Wärmepumpe",
+          "text": "Den kompletten Prozess führen wir selbst durch – von der Bestandsanalyse über den Förderantrag bis zur fertigen Installation.",
+          "href": "/leistungen#waermepumpe"
+        },
+        {
+          "n": "04", "title": "Energieaudit",
+          "text": "BAFA-gefördertes Audit mit kalkulierter Einsparübersicht in Euro und einem Umsetzungsplan mit garantiertem Effizienzziel.",
+          "href": "/leistungen#energieaudit"
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Unsere Haltung",
+      "heading": "Warum Energie Wechsel am Main",
+      "items": [
+        { "title": "Persönlich",  "text": "Ein fester Ansprechpartner über die gesamte Vertragslaufzeit. Keine Weitergabe an externe Callcenter." },
+        { "title": "Unabhängig", "text": "Vergleich aus über 1.200 Tarifen. Wir sind keinem einzelnen Versorger verpflichtet." },
+        { "title": "End-to-End", "text": "Von der Erstanalyse bis zur laufenden Betreuung – alles aus einer Hand." }
+      ]
+    },
+    "testimonials": {
+      "eyebrow":          "Referenzen",
+      "heading":          "Das sagen unsere Kunden",
+      "placeholderBadge": "PLATZHALTER · echte Stimmen folgen vom Kunden",
+      "items": [
+        {
+          "quote":   "Herr Seufert hat uns den kompletten Wechsel abgenommen – vom Tarifvergleich bis zur Kündigung beim Altanbieter. Klare Kommunikation, null Papierkrieg.",
+          "name":    "Familie K.",
+          "role":    "Privathaushalt · Offenbach",
+          "savings": "−412 € / Jahr"
+        },
+        {
+          "quote":   "Wir haben das Energieaudit zusammen durchgezogen. Der Umsetzungsplan kam mit belastbaren Zahlen und hat unseren Verbrauch spürbar gesenkt.",
+          "name":    "Mittelständler · Handwerk",
+          "role":    "KMU · Hanau",
+          "savings": "−18 % Verbrauch"
+        },
+        {
+          "quote":   "Von der PV-Planung bis zum Netzanschluss alles aus einer Hand. Kein Pingpong zwischen Firmen, sondern ein Ansprechpartner vom ersten Gespräch an.",
+          "name":    "Herr & Frau B.",
+          "role":    "Eigenheim · Aschaffenburg",
+          "savings": "−1.140 € / Jahr"
+        }
+      ]
+    },
+    "cta": {
+      "title":     "Sparen beginnt mit einem 15-Minuten-Gespräch.",
+      "sub":       "Unverbindlich, kostenfrei, ohne Vertragsbindung.",
+      "primary":   { "label": "Termin vereinbaren",      "href": "/#termin" },
+      "secondary": { "label": "+49 · Rückruf anfordern", "href": "/#kontakt" }
+    }
+  },
+
+  "leistungenPage": {
+    "meta": {
+      "title": "Leistungen — Energiewechsel am Main",
+      "description": "Strom & Gas, Photovoltaik, Wärmepumpe und Energieaudit. Persönliche Beratung im Rhein-Main Gebiet."
+    },
+    "hero": {
+      "eyebrow":  "Leistungen",
+      "heading":  "Leistungen.",
+      "subtitle": "Vier Bereiche, die wir persönlich und von Anfang bis Ende begleiten."
+    },
+    "pointsCardHeading": "Was enthalten ist",
+    "ctaButtonLabel":    "Beratung zu diesem Thema anfragen",
+    "cta": {
+      "title":     "Noch offene Fragen zu einem Thema?",
+      "sub":       "Ein kurzes Telefonat klärt meist mehr als jede Mailkette. 15 Minuten, unverbindlich.",
+      "primary":   { "label": "Termin vereinbaren", "href": "/#termin" },
+      "secondary": { "label": "Direkt schreiben",   "href": "mailto:kontakt@ewam.de" }
+    },
+    "sections": [
+      {
+        "id": "strom-gas", "navLabel": "Strom & Gas",
+        "eyebrow": "01 · Strom & Gas",
+        "heading": "Strom- und Gastarife, die wirklich zu Ihnen passen",
+        "body": [
+          "Die Tariflandschaft verändert sich ständig – und kaum jemand hat die Zeit, den Markt kontinuierlich im Blick zu behalten. Wir übernehmen das für Sie. Aus über 1.200 Tarifen wählen wir die Angebote aus, die zu Ihrem Verbrauchsprofil passen. Rund 95 Prozent unserer Wechsel erfolgen in Tarife mit Preisgarantie über zwei Jahre – Sie wissen also genau, was Sie monatlich erwartet.",
+          "Nach dem Wechsel kümmern wir uns weiter. Mit unserer Vollmacht übernehmen wir auf Wunsch die gesamte Kommunikation mit Ihrem Versorger: Rechnungsprüfung, Kündigungsfristen, jährliche Tarifoptimierung. Sie haben einen Ansprechpartner – wir regeln den Rest."
+        ],
+        "points": [
+          "Vergleich aus über 1.200 Tarifen",
+          "Preisgarantie bis 24 Monate bei 95 % unserer Wechsel",
+          "Vertragsmanagement inkl. Anbieterkommunikation per Vollmacht",
+          "Jährliche Prüfung, ob ein günstigerer Tarif verfügbar ist"
+        ]
+      },
+      {
+        "id": "photovoltaik", "navLabel": "Photovoltaik",
+        "eyebrow": "02 · Photovoltaik",
+        "heading": "Ihre Solaranlage – als Gesamtkonzept, aus unabhängiger Hand",
+        "body": [
+          "Eine Photovoltaik-Anlage ist eine Investition für Jahrzehnte – und genau deshalb sollte sie nicht auf dem Angebot eines einzelnen Installateurs basieren. Als Makler bringen wir Sie mit den passenden Partnern aus unserem geprüften Netzwerk zusammen und entwickeln gemeinsam mit Ihnen ein Gesamtkonzept aus Modulen, Speicher und – wo sinnvoll – einem abgestimmten Wärmekonzept.",
+          "Das Aufmaß Ihrer Dachfläche übernehmen wir per Drohnenflug. Daraus entsteht ein Angebot, das zu Ihrem tatsächlichen Bedarf passt, nicht zu einem Standardpaket. Vom Vergleich der Angebote bis zum Netzanschluss begleiten wir den gesamten Prozess – Sie müssen sich nicht mit mehreren Gewerken parallel abstimmen."
+        ],
+        "points": [
+          "Gesamtkonzept: Module, Speicher und optionales Wärmekonzept",
+          "Präzises Dach-Aufmaß per Drohnenflug",
+          "Netzwerk geprüfter Installations-Partner",
+          "Begleitung bis zum Netzanschluss durch den Partner"
+        ],
+        "tags": ["#Autark", "#Unabhängig"]
+      },
+      {
+        "id": "waermepumpe", "navLabel": "Wärmepumpe",
+        "eyebrow": "03 · Wärmepumpe",
+        "heading": "Heizen mit Zukunft – vom Erstgespräch bis zur Inbetriebnahme",
+        "body": [
+          "Bei der Wärmepumpe gehen wir einen Schritt weiter als im Solarbereich: Den kompletten Prozess führen wir selbst durch, ohne Abgabe an externe Partner. So bleibt die Qualität in einer Hand – und Sie haben durchgehend denselben Ansprechpartner, vom ersten Telefonat bis zur fertigen Anlage.",
+          "Wir beginnen mit einer Bestandsaufnahme Ihrer aktuellen Heizsituation, typischerweise Gas oder Öl, und entwickeln daraus einen konkreten Austauschplan inklusive Förderantrag. Erst wenn die Zahlen für Sie stimmen, wird umgesetzt. Danach begleiten wir die Installation bis zur Inbetriebnahme – und bleiben auch danach Ihr Ansprechpartner bei Fragen zum Betrieb."
+        ],
+        "points": [
+          "Bestandsanalyse der aktuellen Heizung (Gas, Öl)",
+          "Konzeptentwicklung inkl. Fördermittelantrag",
+          "Eigene Umsetzung – keine Weitergabe an Dritte",
+          "Begleitung bis zur Inbetriebnahme"
+        ]
+      },
+      {
+        "id": "energieaudit", "navLabel": "Energieaudit",
+        "eyebrow": "04 · Energieaudit",
+        "heading": "Energieaudit – wissen, wo Ihr Geld hingeht",
+        "body": [
+          "Ein Energieaudit zeigt Ihnen, wo in Ihrem Betrieb oder Haushalt tatsächlich gespart werden kann – und zwar in Euro, nicht in vagen Prozenten. Für größere Gewerbebetriebe ist das Audit gesetzlich verpflichtend, für kleinere Unternehmen und Privathaushalte oft die schnellste Route zu spürbaren Einsparungen.",
+          "Die Kosten sind überschaubar: Durch den BAFA-Zuschuss von 50 Prozent bleibt häufig nur ein Eigenanteil von rund 400 Euro – bei Unternehmen voll steuerlich absetzbar. Was Sie am Ende bekommen: eine vollständige Analyse aller relevanten Systeme (Heizung, Dämmung, große Verbraucher), eine in Euro kalkulierte Einsparübersicht und einen Umsetzungsplan mit garantiertem Effizienzziel."
+        ],
+        "points": [
+          "Analyse aller relevanten Systeme (Heizung, Dämmung, Verbraucher)",
+          "Einsparpotenzial in Euro kalkuliert, nicht nur in Prozent",
+          "Umsetzungsplan mit garantiertem Effizienzziel",
+          "50 % BAFA-Zuschuss – für Gewerbe voll steuerlich absetzbar"
+        ],
+        "info": [
+          ["Privat",       "freiwillig, oft mit schneller Amortisation"],
+          ["Kleingewerbe", "freiwillig, förderfähig"],
+          ["Großgewerbe",  "gesetzlich verpflichtend"]
+        ]
+      }
+    ]
+  },
+
+  "ueberMichPage": {
+    "meta": {
+      "title": "Über mich — Energiewechsel am Main",
+      "description": "Maik Seufert – unabhängiger Energieberater im Rhein-Main Gebiet. Persönliche Beratung mit über 5 Jahren Erfahrung."
+    },
+    "intro": {
+      "eyebrow":   "Über mich",
+      "heading":   "Persönliche Beratung ist kein Feature.",
+      "headingEm": "Sie ist mein Geschäftsmodell.",
+      "body":      "Seit über fünf Jahren helfe ich Privathaushalten und Unternehmen in der Region, ihre Energiekosten zu senken und ihre Versorgung zukunftssicher aufzustellen. Was mich von großen Vergleichsportalen unterscheidet, ist einfach erklärt: Bei mir bekommen Sie keinen wechselnden Callcenter-Agenten, sondern einen festen Ansprechpartner – vom ersten Gespräch über den Vertragsabschluss bis zur laufenden Betreuung.",
+      "portrait": {
+        "src":       "/assets/images/beraterbild.png",
+        "label":     "PORTRAIT · 3:4 · Maik Seufert",
+        "ariaLabel": "Portraitfoto Maik Seufert",
+        "caption":   "Maik Seufert, Inhaber"
+      }
+    },
+    "approach": {
+      "heading": "Mein Ansatz",
+      "paragraphs": [
+        "Gemeinsam mit meinem Team betreue ich inzwischen über 5.000 Kunden persönlich. Unser Anspruch dabei: Beratung, die sich nach Ihrer Situation richtet – nicht nach dem nächsten Kundentermin im Minutentakt. Das funktioniert, weil wir bewusst klein und spezialisiert bleiben.",
+        "Energie ist für mich Vertrauenssache. Und Vertrauen entsteht nur dort, wo man weiß, mit wem man spricht."
+      ]
+    },
+    "principles": {
+      "heading": "Drei Prinzipien, nach denen wir arbeiten",
+      "items": [
+        {
+          "n": "01",
+          "title": "Ein Ansprechpartner, kein Nummernsystem",
+          "text":  "Wer bei uns anruft, spricht mit demselben Menschen wie beim letzten Mal. Das klingt banal, ist in der Energiebranche aber die Ausnahme."
+        },
+        {
+          "n": "02",
+          "title": "Unabhängig heißt wirklich unabhängig",
+          "text":  "Wir sind keinem Versorger verpflichtet. Das gibt uns die Freiheit, Ihnen das Angebot zu empfehlen, das zu Ihnen passt – nicht das, an dem wir am meisten verdienen."
+        },
+        {
+          "n": "03",
+          "title": "End-to-End statt Weiterreichen",
+          "text":  "Bei Strom, Gas und Wärmepumpe führen wir den Prozess selbst. Bei Photovoltaik bleiben wir Ihr Ansprechpartner, auch wenn unsere Partner die Installation übernehmen. Sie müssen sich nie um Schnittstellen kümmern."
+        }
+      ]
+    },
+    "team": {
+      "heading": "Das Team",
+      "body":    "Ich arbeite mit einem kleinen, festen Team zusammen, das Sie auf Wunsch kennenlernen. Bei jedem Vorgang wissen Sie, wer zuständig ist."
+    },
+    "cta": {
+      "title":   "Reden wir.",
+      "sub":     "Ein kurzes Kennenlernen kostet Sie 15 Minuten – und hilft uns beiden einzuschätzen, ob wir zusammenpassen.",
+      "primary": { "label": "Termin vereinbaren", "href": "/#termin" }
+    }
+  }
+}
