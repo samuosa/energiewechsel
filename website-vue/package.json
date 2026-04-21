@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@primevue/themes": "^4.5.4",
     "@vueuse/head": "^2.0.0",
+    "lucide-vue-next": "^0.511.0",
+    "primevue": "^4.5.5",
     "vue": "^3.4.0",
     "vue-router": "^4.3.0"
   },

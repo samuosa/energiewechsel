@@ -11,7 +11,7 @@
         "home":       { "label": "Home",       "href": "/" },
         "leistungen": { "label": "Leistungen", "href": "/leistungen" },
         "ueber":      { "label": "Über mich",  "href": "/ueber-mich" },
-        "kontakt":    { "label": "Kontakt",    "href": "/#kontakt" }
+        "kontakt":    { "label": "Kontakt",    "href": "/kontakt" }
       },
       "ctaButton": { "label": "Termin buchen", "href": "/#termin" },
       "menuAriaLabel": "Menü öffnen",
@@ -295,5 +295,143 @@
       "sub":     "Ein kurzes Kennenlernen kostet Sie 15 Minuten – und hilft uns beiden einzuschätzen, ob wir zusammenpassen.",
       "primary": { "label": "Termin vereinbaren", "href": "/#termin" }
     }
+  },
+
+  "kontaktPage": {
+    "meta": {
+      "title":       "Kontakt — Energiewechsel am Main",
+      "description": "Nehmen Sie Kontakt mit Mike Seufert auf – Energieberatung im Rhein-Main Gebiet. Telefon, E-Mail oder Termin buchen."
+    },
+    "hero": {
+      "eyebrow":  "Kontakt",
+      "heading":  "Sprechen wir.",
+      "subtitle": "Ob eine kurze Frage oder ein konkretes Projekt – ich bin persönlich erreichbar und antworte in der Regel innerhalb von 24 Stunden.",
+      "ctaLabel": "Anfrage stellen",
+      "portrait": {
+        "src":       "/assets/images/beraterbild.png",
+        "label":     "PORTRAIT · 3:4 · Mike Seufert",
+        "ariaLabel": "Portraitfoto Mike Seufert",
+        "caption":   "Mike Seufert, Inhaber"
+      }
+    },
+    "info": {
+      "heading": "So erreichen Sie uns",
+      "items": [
+        { "icon": "MapPin", "label": "Adresse",       "value": "Mainstraße 1 · 97321 Würzburg" },
+        { "icon": "Phone",  "label": "Telefon",        "value": "+49 00 000 000 00",  "href": "tel:+4900000000" },
+        { "icon": "Mail",   "label": "E-Mail",         "value": "kontakt@ewam.de",    "href": "mailto:kontakt@ewam.de" },
+        { "icon": "Clock",  "label": "Erreichbarkeit", "value": "Mo–Fr · 8 – 18 Uhr" }
+      ],
+      "mapPlaceholder": "Kartenansicht folgt"
+    },
+    "cta": {
+      "title":   "Termin vereinbaren",
+      "sub":     "Kostenloses Erstgespräch · 15 Minuten · unverbindlich",
+      "primary": { "label": "Jetzt Termin buchen", "href": "#" }
+    }
+  },
+
+  "impressumPage": {
+    "meta": {
+      "title":       "Impressum — Energiewechsel am Main",
+      "description": "Impressum der Energiewechsel am Main, Mike Seufert e.K."
+    },
+    "hero": { "heading": "Impressum" },
+    "sections": [
+      {
+        "heading": "Angaben gemäß § 5 TMG",
+        "content": "Mike Seufert e.K.\nMainstraße 1\n97321 Würzburg"
+      },
+      {
+        "heading": "Kontakt",
+        "content": "Telefon: +49 00 000 000 00\nE-Mail: kontakt@ewam.de"
+      },
+      {
+        "heading": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+        "content": "Mike Seufert\nMainstraße 1\n97321 Würzburg"
+      },
+      {
+        "heading": "Haftungsausschluss",
+        "content": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich."
+      },
+      {
+        "heading": "Urheberrecht",
+        "content": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet."
+      }
+    ]
+  },
+
+  "datenschutzPage": {
+    "meta": {
+      "title":       "Datenschutz — Energiewechsel am Main",
+      "description": "Datenschutzerklärung der Energiewechsel am Main, Mike Seufert e.K."
+    },
+    "hero": { "heading": "Datenschutzerklärung" },
+    "sections": [
+      {
+        "heading": "1. Datenschutz auf einen Blick",
+        "content": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können."
+      },
+      {
+        "heading": "2. Verantwortliche Stelle",
+        "content": "Mike Seufert e.K.\nMainstraße 1 · 97321 Würzburg\nE-Mail: kontakt@ewam.de\nTelefon: +49 00 000 000 00"
+      },
+      {
+        "heading": "3. Erhebung und Verarbeitung von Daten",
+        "content": "Diese Website erhebt keine personenbezogenen Daten ohne Ihre ausdrückliche Einwilligung. Es werden keine Tracking-Tools, Analyse-Cookies oder externe Werbedienste eingesetzt. Beim Aufruf unserer Website werden durch den Browser automatisch Informationen an den Server übermittelt (z. B. IP-Adresse, Zeitpunkt des Zugriffs). Diese Daten werden nicht mit anderen Datenquellen zusammengeführt."
+      },
+      {
+        "heading": "4. Ihre Rechte",
+        "content": "Sie haben das Recht auf Auskunft über die bei uns gespeicherten personenbezogenen Daten, das Recht auf Berichtigung, Löschung und Einschränkung der Verarbeitung sowie das Recht auf Datenübertragbarkeit. Wenden Sie sich dazu jederzeit an die oben genannte Kontaktadresse."
+      },
+      {
+        "heading": "5. Kontaktformular",
+        "content": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter."
+      }
+    ]
+  },
+
+  "contactForm": {
+    "titleKontakt":        "Kontakt aufnehmen",
+    "titleTermin":         "Termin buchen",
+    "anfrageLabel":        "Art der Anfrage",
+    "anfragePlaceholder":  "Bitte wählen …",
+    "anfrageOptions": [
+      { "label": "Strom & Gas",        "value": "strom-gas" },
+      { "label": "Photovoltaik",       "value": "photovoltaik" },
+      { "label": "Wärmepumpe",         "value": "waermepumpe" },
+      { "label": "Energie Audit",      "value": "energieaudit" },
+      { "label": "Allgemeine Anfrage", "value": "allgemein" }
+    ],
+    "telefonLabel":        "Telefonnummer",
+    "telefonPlaceholder":  "+49 …",
+    "emailLabel":          "E-Mail Adresse",
+    "emailPlaceholder":    "ihre@email.de",
+    "nachrichtLabel":      "Nachricht",
+    "nachrichtPlaceholder":"Womit kann ich Ihnen helfen?",
+    "anhangLabel":         "Dateianhang",
+    "anhangHint":          "Optional · max. 10 MB",
+    "submitLabel":         "Anfrage senden",
+    "requiredHint":        "Pflichtfelder"
+  },
+
+  "bewertungForm": {
+    "title":                    "Bewerten Sie uns",
+    "sterneLabel":              "Ihre Bewertung",
+    "sterneHint":               "Wählen Sie 1 bis 5 Sterne",
+    "nicknameLabel":            "Ihr Name / Nickname",
+    "nicknamePlaceholder":      "z. B. Familie Müller",
+    "emailLabel":               "E-Mail Adresse",
+    "emailPlaceholder":         "ihre@email.de",
+    "emailHint":                "Wird nicht veröffentlicht",
+    "organisationLabel":        "Organisation",
+    "organisationPlaceholder":  "Firma, Verein … (optional)",
+    "rolleLabel":               "Ihre Rolle",
+    "rollePlaceholder":         "z. B. Geschäftsführer (optional)",
+    "ueberschriftLabel":        "Überschrift",
+    "ueberschriftPlaceholder":  "Kurze Zusammenfassung Ihrer Erfahrung",
+    "beschreibungLabel":        "Beschreibung",
+    "beschreibungPlaceholder":  "Erzählen Sie von Ihrer Erfahrung …",
+    "submitLabel":              "Bewertung abschicken"
   }
 }

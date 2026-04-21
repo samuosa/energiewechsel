@@ -25,9 +25,9 @@
       </nav>
 
       <!-- CTA -->
-      <a :href="c.nav.ctaButton.href" class="btn-primary nav-cta text-sm ml-6">
+      <button class="btn-primary nav-cta text-sm ml-6" @click="openContactModal('termin')">
         {{ c.nav.ctaButton.label }}
-      </a>
+      </button>
 
       <!-- Mobile hamburger -->
       <button
@@ -58,13 +58,12 @@
         >
           {{ link.label }}
         </RouterLink>
-        <a
-          :href="c.nav.ctaButton.href"
+        <button
           class="btn-primary mobile-cta"
-          @click="menuOpen = false"
+          @click="openContactModal('termin'); menuOpen = false"
         >
           {{ c.nav.ctaButton.label }}
-        </a>
+        </button>
       </div>
     </Transition>
   </header>
@@ -74,10 +73,12 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import content from '@/contents/contents.json'
+import { useModals } from '@/composables/useModals'
 
 const c = content.shared
 const menuOpen = ref(false)
 const router = useRouter()
+const { openContactModal } = useModals()
 
 router.afterEach(() => { menuOpen.value = false })
 </script>

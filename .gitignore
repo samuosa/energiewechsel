@@ -2,3 +2,4 @@
 /v2
 /website-vue/node_modules
 /website-vue/dist
+website-vue/node_modules/*

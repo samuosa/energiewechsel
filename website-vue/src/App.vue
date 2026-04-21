@@ -5,12 +5,16 @@
     <RouterView />
   </main>
   <SiteFooter />
+  <ContactModal />
+  <BewertungModal />
 </template>
 
 <script setup>
 import { useHead } from '@vueuse/head'
 import SiteHeader from '@/components/layout/SiteHeader.vue'
 import SiteFooter from '@/components/layout/SiteFooter.vue'
+import ContactModal from '@/components/modals/ContactModal.vue'
+import BewertungModal from '@/components/modals/BewertungModal.vue'
 import content from '@/contents/contents.json'
 
 const c = content.shared

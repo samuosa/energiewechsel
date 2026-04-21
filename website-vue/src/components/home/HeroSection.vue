@@ -20,9 +20,9 @@
           </p>
 
           <div class="flex flex-wrap gap-3 mb-5">
-            <a :href="c.ctaPrimary.href" class="btn-primary">
+            <button class="btn-primary" @click="openContactModal('termin')">
               {{ c.ctaPrimary.label }}
-            </a>
+            </button>
             <RouterLink :to="c.ctaSecondary.href" class="btn-secondary">
               {{ c.ctaSecondary.label }}
             </RouterLink>
@@ -72,15 +72,16 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useModals } from '@/composables/useModals'
 
 defineProps({
   c: { type: Object, required: true }
 })
 
+const { openContactModal } = useModals()
 const portraitLoaded = ref(false)
 
 onMounted(() => {
-  // Only show image if it resolves (not a placeholder path)
   const img = new Image()
   img.onload = () => { portraitLoaded.value = true }
   img.src = '/assets/images/beraterbild.png'

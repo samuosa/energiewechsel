@@ -20,14 +20,18 @@
         <div>
           <p class="eyebrow mb-4">Kontakt</p>
           <ul class="space-y-2 text-sm text-secondary leading-relaxed" style="list-style:none;padding:0;margin:0;">
-            <li>{{ c.footer.address.company }}</li>
-            <li>{{ c.footer.address.street }}</li>
-            <li>
+            <li class="flex items-start gap-1.5">
+              <MapPin :size="14" class="mt-0.5 flex-shrink-0" style="color: var(--color-accent);" aria-hidden="true" />
+              <span>{{ c.footer.address.company }}, {{ c.footer.address.street }}</span>
+            </li>
+            <li class="flex items-center gap-1.5">
+              <Mail :size="14" class="flex-shrink-0" style="color: var(--color-accent);" aria-hidden="true" />
               <a :href="c.footer.address.emailHref" class="hover:text-accent transition-colors duration-200">
                 {{ c.footer.address.email }}
               </a>
             </li>
-            <li>
+            <li class="flex items-center gap-1.5">
+              <Phone :size="14" class="flex-shrink-0" style="color: var(--color-accent);" aria-hidden="true" />
               <a :href="c.footer.address.phoneHref" class="hover:text-accent transition-colors duration-200">
                 {{ c.footer.address.phone }}
               </a>
@@ -77,6 +81,7 @@
 </template>
 
 <script setup>
+import { MapPin, Mail, Phone } from 'lucide-vue-next'
 import content from '@/contents/contents.json'
 const c = content.shared
 </script>

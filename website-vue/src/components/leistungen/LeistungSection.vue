@@ -40,12 +40,12 @@
           </div>
 
           <!-- CTA button -->
-          <a
-            :href="`/#termin?topic=${section.id}`"
+          <button
             class="btn-primary inline-flex"
+            @click="openContactModal('kontakt', section.id)"
           >
             {{ ctaButtonLabel }}
-          </a>
+          </button>
         </div>
 
         <!-- Sidebar -->
@@ -97,9 +97,13 @@
 </template>
 
 <script setup>
+import { useModals } from '@/composables/useModals'
+
 defineProps({
   section:          { type: Object, required: true },
   pointsCardHeading:{ type: String, required: true },
   ctaButtonLabel:   { type: String, required: true }
 })
+
+const { openContactModal } = useModals()
 </script>

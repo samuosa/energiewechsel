@@ -53,9 +53,11 @@ export default {
         custom: 'cubic-bezier(.2,.7,.2,1)'
       },
       zIndex: {
-        header: '80',
-        subnav: '70',
-        skip:   '200'
+        header:  '80',
+        subnav:  '70',
+        skip:    '200',
+        overlay: '290',
+        modal:   '300'
       }
     }
   },

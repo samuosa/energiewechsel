@@ -21,11 +21,29 @@ const routes = [
     name: 'ueber-mich',
     component: UeberMichView,
     meta: { title: 'Über mich — Energiewechsel am Main' }
+  },
+  {
+    path: '/kontakt',
+    name: 'kontakt',
+    component: () => import('@/views/KontaktView.vue'),
+    meta: { title: 'Kontakt — Energiewechsel am Main' }
+  },
+  {
+    path: '/impressum',
+    name: 'impressum',
+    component: () => import('@/views/ImpressumView.vue'),
+    meta: { title: 'Impressum — Energiewechsel am Main' }
+  },
+  {
+    path: '/datenschutz',
+    name: 'datenschutz',
+    component: () => import('@/views/DatenschutzView.vue'),
+    meta: { title: 'Datenschutz — Energiewechsel am Main' }
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) return savedPosition
