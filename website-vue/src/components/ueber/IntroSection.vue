@@ -26,7 +26,7 @@
           >
             <img
               v-if="portraitLoaded"
-              :src="c.portrait.src"
+              :src="base + c.portrait.src"
               :alt="c.portrait.ariaLabel"
               class="w-full h-full object-cover"
             />
@@ -55,10 +55,11 @@ defineProps({
   c: { type: Object, required: true }
 })
 
+const base = import.meta.env.BASE_URL
 const portraitLoaded = ref(false)
 onMounted(() => {
   const img = new Image()
   img.onload = () => { portraitLoaded.value = true }
-  img.src = '/assets/images/beraterbild.png'
+  img.src = import.meta.env.BASE_URL + 'assets/images/beraterbild.png'
 })
 </script>

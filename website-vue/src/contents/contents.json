@@ -77,7 +77,7 @@
       "ctaSecondary": { "label": "Leistungen ansehen", "href": "/leistungen" },
       "availabilityNote": "Aktuell Termine verfügbar · Antwort innerhalb von 24 h",
       "portrait": {
-        "src":       "/assets/images/beraterbild.png",
+        "src":       "assets/images/beraterbild.png",
         "label":     "PORTRAIT · 4:5 · Mike Seufert",
         "ariaLabel": "Portraitfoto Mike Seufert",
         "caption1":  "Mike Seufert, Inhaber",
@@ -253,7 +253,7 @@
       "headingEm": "Sie ist mein Geschäftsmodell.",
       "body":      "Seit über fünf Jahren helfe ich Privathaushalten und Unternehmen in der Region, ihre Energiekosten zu senken und ihre Versorgung zukunftssicher aufzustellen. Was mich von großen Vergleichsportalen unterscheidet, ist einfach erklärt: Bei mir bekommen Sie keinen wechselnden Callcenter-Agenten, sondern einen festen Ansprechpartner – vom ersten Gespräch über den Vertragsabschluss bis zur laufenden Betreuung.",
       "portrait": {
-        "src":       "/assets/images/beraterbild.png",
+        "src":       "assets/images/beraterbild.png",
         "label":     "PORTRAIT · 3:4 · Mike Seufert",
         "ariaLabel": "Portraitfoto Mike Seufert",
         "caption":   "Mike Seufert, Inhaber"
@@ -308,7 +308,7 @@
       "subtitle": "Ob eine kurze Frage oder ein konkretes Projekt – ich bin persönlich erreichbar und antworte in der Regel innerhalb von 24 Stunden.",
       "ctaLabel": "Anfrage stellen",
       "portrait": {
-        "src":       "/assets/images/beraterbild.png",
+        "src":       "assets/images/beraterbild.png",
         "label":     "PORTRAIT · 3:4 · Mike Seufert",
         "ariaLabel": "Portraitfoto Mike Seufert",
         "caption":   "Mike Seufert, Inhaber"

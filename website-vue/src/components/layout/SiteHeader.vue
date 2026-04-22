@@ -5,7 +5,7 @@
     <div class="contain header-inner">
       <!-- Brand -->
       <RouterLink :to="'/'" class="brand" :aria-label="c.nav.brand.ariaLabel">
-        <img src="/assets/images/logo.png" :alt="c.nav.brand.name" width="32" height="32" />
+        <img :src="`${base}assets/images/logo.png`" :alt="c.nav.brand.name" width="32" height="32" />
         <div>
           <span class="brand-name">{{ c.nav.brand.name }}</span>
           <small class="brand-tagline">{{ c.nav.brand.tagline }}</small>
@@ -75,6 +75,7 @@ import { useRouter } from 'vue-router'
 import content from '@/contents/contents.json'
 import { useModals } from '@/composables/useModals'
 
+const base = import.meta.env.BASE_URL
 const c = content.shared
 const menuOpen = ref(false)
 const router = useRouter()

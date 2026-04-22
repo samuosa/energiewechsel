@@ -6,7 +6,7 @@
         <!-- Brand column -->
         <div class="md:col-span-1">
           <RouterLink to="/" class="brand mb-4 inline-flex">
-            <img src="/assets/images/logo.png" :alt="c.footer.brand.name" width="36" height="36" />
+            <img :src="`${base}assets/images/logo.png`" :alt="c.footer.brand.name" width="36" height="36" />
             <div class="ml-3">
               <span class="brand-name">{{ c.footer.brand.name }}</span>
             </div>
@@ -83,5 +83,6 @@
 <script setup>
 import { MapPin, Mail, Phone } from 'lucide-vue-next'
 import content from '@/contents/contents.json'
+const base = import.meta.env.BASE_URL
 const c = content.shared
 </script>

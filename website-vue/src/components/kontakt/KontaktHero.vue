@@ -26,7 +26,7 @@
           >
             <img
               v-if="imgLoaded"
-              :src="c.portrait.src"
+              :src="base + c.portrait.src"
               :alt="c.portrait.ariaLabel"
               class="absolute inset-0 w-full h-full object-cover"
             />
@@ -61,11 +61,12 @@ const props = defineProps({
 
 const emit = defineEmits(['open-modal'])
 
+const base = import.meta.env.BASE_URL
 const imgLoaded = ref(false)
 
 onMounted(() => {
   const img = new Image()
   img.onload = () => { imgLoaded.value = true }
-  img.src = props.c.portrait.src
+  img.src = base + props.c.portrait.src
 })
 </script>
