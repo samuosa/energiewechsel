@@ -9,7 +9,7 @@
 
           <h1 class="about-h1 mb-8">
             {{ c.heading }}<br>
-            <em class="not-italic text-gold">{{ c.headingEm }}</em>
+            <em class="not-italic text-accent">{{ c.headingEm }}</em>
           </h1>
 
           <p class="leading-relaxed max-w-xl" style="font-size: 17px; color: var(--color-text-body); line-height: 1.7;">
