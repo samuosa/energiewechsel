@@ -25,7 +25,7 @@
         >
           <!-- Quote mark -->
           <div
-            class="text-gold mb-4 leading-none select-none"
+            class="text-accent mb-4 leading-none select-none"
             style="font-size: 56px; line-height: 1; font-family: Georgia, serif;"
             aria-hidden="true"
           >

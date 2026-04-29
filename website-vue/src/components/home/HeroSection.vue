@@ -6,11 +6,11 @@
       <div class="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-16 items-center">
 
         <!-- Content -->
-        <div>
+        <div class="order-last lg:order-first">
           <p class="eyebrow mb-5">{{ c.eyebrow }}</p>
 
           <h1 class="hero-h1 mb-7">
-            <span class="text-gold">{{ c.line1 }}</span><br>
+            <span class="text-accent">{{ c.line1 }}</span><br>
             {{ c.line2 }}<br>
             {{ c.line3 }}
           </h1>
@@ -34,7 +34,7 @@
         </div>
 
         <!-- Portrait -->
-        <div class="relative hidden lg:block">
+        <div class="relative order-first lg:order-last">
           <div
             class="portrait-placeholder aspect-[4/5] flex items-end overflow-hidden"
             :aria-label="c.portrait.ariaLabel"

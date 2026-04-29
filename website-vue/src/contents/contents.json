@@ -92,21 +92,29 @@
       "items": [
         {
           "n": "01", "title": "Strom & Gas",
+          "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "icon": "Zap",
           "text": "Aus über 1.200 Tarifen wählen wir die Angebote, die zu Ihrem Verbrauchsprofil passen – inklusive Preisgarantie und laufender Vertragsbetreuung.",
           "href": "/leistungen#strom-gas"
         },
         {
           "n": "02", "title": "Photovoltaik",
+          "image": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "icon": "Sun",
           "text": "Gesamtkonzept aus Modulen, Speicher und Wärme, Dach-Aufmaß per Drohne, Umsetzung über unser Partnernetzwerk – bis zum Netzanschluss.",
           "href": "/leistungen#photovoltaik"
         },
         {
           "n": "03", "title": "Wärmepumpe",
+          "image": "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "icon": "ThermometerSun",
           "text": "Den kompletten Prozess führen wir selbst durch – von der Bestandsanalyse über den Förderantrag bis zur fertigen Installation.",
           "href": "/leistungen#waermepumpe"
         },
         {
           "n": "04", "title": "Energieaudit",
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          "icon": "ClipboardCheck",
           "text": "BAFA-gefördertes Audit mit kalkulierter Einsparübersicht in Euro und einem Umsetzungsplan mit garantiertem Effizienzziel.",
           "href": "/leistungen#energieaudit"
         }
